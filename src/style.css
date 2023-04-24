@@ -1,0 +1,208 @@
+header{
+    width: 100%;
+    margin: auto;
+    background-color: #440D0F;
+    background-size: 100%;
+    border-color: #440D0F;
+    border-radius: 8px;
+    border-width: 5px;
+    margin-bottom: 10px;
+}
+
+header .innerHeader{
+    color: white;
+    padding-left: 30px;
+    padding-top: 10px;
+}
+
+body{
+    background-color: #191716;
+}
+
+main{
+    margin: auto;
+    width:85%;
+}
+
+ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    border-color: red;
+}
+
+.logo{
+    width: 75px;
+}
+
+.tasK_obj{
+    background-color: #440D0F;
+    border-color: #F1E0C5;
+    color: white;
+    font-weight: bold;
+    font-size: 180%;
+    padding: 10px;
+    margin: 10px;
+    border-radius: 8px;
+    border-width: 5px;
+}
+
+.usernav{
+    text-align: right;
+    color: white;
+    text-decoration: none;
+    padding: 1em 1.5em;
+    text-decoration: none;
+    text-transform: uppercase;
+}
+
+.gennav {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    overflow: hidden;
+    background-color: #2b2826;
+}
+
+.gennav li {
+    float: left;
+}
+  
+.gennav li a {
+    display: block;
+    color: white;
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration: none;
+}
+
+Link:hover {
+  background-color: #f1e0c5;
+  color: black
+}
+nav a:hover {
+    background-color: #f1e0c5;
+    color: black
+}
+
+.subtask {
+    text-align: center;
+    border-width: thick;
+    border-style: ridge;
+    background-color: #440D0F;
+    border-color:#F1E0C5;
+    font-weight: bold;
+    font-size: 180%;
+    padding: 10px;
+    margin: auto;
+    border-radius: 8px;
+    border-width: 5px;
+    width: 80%;
+}
+
+.tasklist {
+  text-decoration: none;
+  color: #F1E0C5;
+}
+
+input[type=text], select, textarea {
+    width: 90%;
+    padding: 12px;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+    resize: vertical;
+  }
+
+  label {
+    padding: 10px 20px 20px 0;
+    display: inline-block;
+    font-weight: bold;
+    font-size: 110%;
+  }
+  
+  input[type=submit] {
+    background-color: #440D0F;
+    color: white;
+    padding: 12px 20px;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    position: relative;
+    left: 88%;
+  }
+  
+  input[type=submit]:hover {
+    background-color: #9a1d22;
+  }
+  
+  .container {
+    border-radius: 5px;
+    background-color: #f7eede;
+    padding: 20px;
+    margin-top: 10px;
+  }
+  
+  .col-25 {
+    float: left;
+    width: 20%;
+    margin-top: 6px;
+    margin-left: 5%;
+
+  }
+  
+  .col-75 {
+    float: left;
+    width: 75%;
+    margin-top: 6px;
+  }
+  
+
+  .row:after {
+    content: "";
+    display: table;
+    clear: both;
+  }
+
+  footer {
+    color:white;
+    text-align: center;
+    padding-top: 50px;
+  }
+ 
+  .intro {
+    font-weight:bold;
+    font-size:xx-large;
+    text-align:center;
+    padding-bottom: 25px;
+  }
+
+  .stars::before{
+    font-style:italic;
+    font-weight:bold;
+    color:#440D0F;
+    content:"STARS"
+  }
+
+  .maintext {
+    line-height: 2 ;
+    margin-top: 0 ;
+    margin-bottom: 0 ;
+    font-weight:bold;
+    font-size:x-large;
+    text-justify:distribute;
+    text-align: center;
+  }
+
+  .corpotalk::before{
+    font-style:italic;
+    font-weight:bold;
+    color:#440D0F;
+    content:"EXPLORE, EXAMINE, EXPLOIT, and EXPAND";
+  }
+
+  .lazycorpo::before{
+    font-style:italic;
+    font-weight:bold;
+    color:#440D0F;
+    content:"ANY TASK";
+  }

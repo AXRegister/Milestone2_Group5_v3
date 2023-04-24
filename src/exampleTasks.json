@@ -1,0 +1,31 @@
+{
+    "Tasks": [
+      {
+        "taskID": "lgoglirj9i8l5qm00hw",
+        "category": "Essential Tasks",
+        "taskName": "Attend Classes",
+        "taskDetails": "Don't Skip Class!",
+        "dueDate": "2023-04-20T00:00:00.000Z",
+        "status": "In-Progress",
+        "location": "Melbourne, Florida"
+      },
+      {
+        "taskID": "lgoglirxvfg135azkbl",
+        "category": "Side Tasks",
+        "taskName": "Clean Room",
+        "taskDetails": "Sort and organize all my stuff",
+        "dueDate": "2023-04-25T00:00:00.000Z",
+        "status": "Not Started",
+        "location": "Melbourne, Flordia"
+      },
+      {
+        "taskID": "lgoglirxrpsps27r8sc",
+        "category": "Miscellaneous Tasks",
+        "taskName": "Hang Out With Friends",
+        "taskDetails": "Arrange a group activity to hang out with my friends",
+        "dueDate": "2023-05-01T00:00:00.000Z",
+        "status": "Not Started",
+        "location": "Melbourne, Florida"
+      }
+    ]
+  }
