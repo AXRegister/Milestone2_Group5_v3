@@ -6,7 +6,7 @@
      "taskDetails":"Don't Skip Class!",
      "dueDate":"2023-04-20T00:00:00.000Z",
      "status":"In-Progress",
-     "location":"Melbourne, Florida"
+     "location":"Melbourne, Flordia"
   },
   {
      "taskID":"lh86c3bw4zlvr7tgmcs",
@@ -15,7 +15,7 @@
      "taskDetails":"Make sure you're ready to graduate",
      "dueDate":"2023-04-20T00:00:00.000Z",
      "status":"In-Progress",
-     "location":"Melbourne, Florida"
+     "location":"Melbourne, Flordia"
   },
   {
      "taskID":"lh86c87b3nwyuan0e9j",
@@ -24,7 +24,7 @@
      "taskDetails":"Ensure all your forms are filled out",
      "dueDate":"2023-04-20T00:00:00.000Z",
      "status":"In-Progress",
-     "location":"Melbourne, Florida"
+     "location":"Melbourne, Flordia"
   },
   {
      "taskID":"lgoglirxvfg135azkbl",
@@ -60,7 +60,7 @@
     "taskDetails":"Arrange a group activity to hang out with my friends",
     "dueDate":"2023-05-01T00:00:00.000Z",
     "status":"Not Started",
-    "location":"Melbourne, Florida"
+    "location":"Melbourne, Flordia"
   },
   {
     "taskID":"lh86d2vlfcqjci2wav",
@@ -69,7 +69,7 @@
     "taskDetails":"Look for some new things to read",
     "dueDate":"2023-05-01T00:00:00.000Z",
     "status":"Not Started",
-    "location":"Melbourne, Florida"
+    "location":"Melbourne, Flordia"
  },
  {
     "taskID":"lh86ddgq9mhyqa2topk",
@@ -78,6 +78,6 @@
     "taskDetails":"Find some new things to eat",
     "dueDate":"2023-05-01T00:00:00.000Z",
     "status":"Not Started",
-    "location":"Melbourne, Florida"
+    "location":"Melbourne, Flordia"
   }
 ]
