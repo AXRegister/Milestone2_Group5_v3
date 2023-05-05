@@ -36,13 +36,14 @@ const Login = () => {
                     <div class="container">                                            
                         <header>
                             <div class="innerHeader">
-                            <h1><img class="logo" src={logo} alt="rocketshiplogo"/>  Florida Tech Space Network / Home Page</h1>
+                            <h1><img class="logo" src={logo} alt="rocketshiplogo"/>  Florida Tech Space Network / Login Page</h1>
                             <div class="usernav">
                             <a class="usernav" href="Login">Log-In</a>
                             <a class="usernav" href="Signup">Sign Up</a>
                             </div>
                     </div>
-                        </header>                   
+                        </header>
+                        <Nav></Nav>
                                                        
                         <form>                                              
                             <div>
