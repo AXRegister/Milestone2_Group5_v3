@@ -3,7 +3,7 @@ import React, { useEffect } from "react";
 
 const GetTasks = function() {
 
-  const url = 'https://raw.githubusercontent.com/AXRegister/MileStone2Group5V2/main/public/exampleTasks.json'
+  const url = 'http://localhost:5001/'
 
   const [toDos, setToDos] = React.useState([]);
 

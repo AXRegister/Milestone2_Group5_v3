@@ -3,8 +3,10 @@ import Nav from './Nav'
 import logo from './rocketship.jpg'
 import GetTasks from "./getTasks";
 import Task from "./Task.js"
+import { useEffect, useState } from "react";
 import EditTask from './editTask';
 import {Routes, Route, useNavigate} from 'react-router-dom';
+import { getAllToDo } from './utils/HandleApi';
 
 function List() {
 
@@ -111,6 +113,17 @@ function List() {
     return (<div dangerouslySetInnerHTML={{__html: finalString}} />);
 
   }
+
+  function TestRouting() {
+
+    const [toDo, setToDo] = useState([])
+    
+    useEffect(() => {
+        getAllToDo(setToDo)
+    }, [])
+
+  }
+
 
   Tasks = tempOutput(finalData);
 

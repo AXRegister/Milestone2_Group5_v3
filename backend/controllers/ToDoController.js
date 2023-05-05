@@ -6,6 +6,22 @@ module.exports.getToDo = async (req, res) => {
     res.send(toDo)
 }
 
+module.exports.getSingleToDo = (req, res) => {
+    const { _id } = req.body;
+
+    console.log('Viewing id ---> ', _id);
+
+    ToDoModel
+        .findById(_id)
+        //.then((data) => res.set(201).send("Found Successfully..."))
+        //    res.send(data)
+        .then((data) => {
+                console.log("Added Successfully");
+                console.log(data);
+                res.send(data);})
+        .catch((err) => console.log(err));
+}
+
 module.exports.saveToDo = async (req, res) => {
 
     const { taskID, category, taskName, taskDetails, dueDate, status, location } = req.body
