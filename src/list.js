@@ -134,8 +134,8 @@ function List() {
             <div class="innerHeader">
                 <h1><img class="logo" src={logo} alt="rocketshiplogo"/> Florida Tech Space Network / My To Do List</h1>
                 <div class="usernav">
-                    <a class="usernav" href="list.js">Log-In</a>
-                    <a class="usernav" href="list.js">Sign Up</a>
+                    <a class="usernav" href="Login">Log-In</a>
+                    <a class="usernav" href="Signup">Sign Up</a>
                 </div>
             </div>
         </header>   
