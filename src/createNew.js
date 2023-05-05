@@ -2,6 +2,28 @@ import './style.css'
 import Nav from './Nav'
 import logo from './rocketship.jpg'
 import { Route } from 'react-router-dom';
+
+function newTask() {
+    let category = document.getElementById("category").value
+    let taskName = document.getElementById("tname").value
+    let taskDetails = document.getElementById("tinfo").value
+    let dueDate = document.getElementById("ddate").value
+    let location = document.getElementById("loc").value
+
+    var newTask = 
+      {
+        "category": category,
+        "taskName": taskName, 
+        "taskDetails": taskDetails, 
+        "dueDate": dueDate, 
+        "location": location,
+      }
+
+    
+    console.log(newTask)
+    console.log(JSON.stringify(newTask))
+}
+
 function CreateNew() {
     return (
 
@@ -20,7 +42,7 @@ function CreateNew() {
         <Nav style={{display: 'block'}}></Nav>
 
             <div class="container">
-                <form action="detail">
+                <form>
                 
                 <div class="row">
                     <div class="col-25">
@@ -28,9 +50,9 @@ function CreateNew() {
                     </div>
                     <div class="col-75">
                       <select id="category" name="category">
-                        <option value="important">Essential Tasks</option>
-                        <option value="non_important">Side Tasks</option>
-                        <option value="misc">Miscellaneous Tasks</option>
+                        <option value="Essential Tasks">Essential Tasks</option>
+                        <option value="Side Tasks">Side Tasks</option>
+                        <option value="Miscellaneous Tasks">Miscellaneous Tasks</option>
                       </select>
                     </div>
                 </div>
@@ -73,7 +95,8 @@ function CreateNew() {
                 </div>
                   
                 <div class="row">
-                    <input type="submit" value="Add Task"/>
+                    <button onClick={newTask}>Submit Task</button>
+                    {/* <input type="submit" value="Add Task"/> */}
                 </div>
                   
                 </form>
