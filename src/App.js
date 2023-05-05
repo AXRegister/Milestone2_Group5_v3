@@ -1,4 +1,7 @@
+import React, {useState, useEffect} from 'react';
 import Home from './home';
+import Signup from './Signup';
+import Login from './Login';
 import { BrowserRouter as Router, Routes, Route } from 'react-router-dom';
 
 import Detail from './detail';
@@ -7,7 +10,7 @@ import List from './list'
 
 // Import the functions you need from the SDKs you need
 import { initializeApp } from "firebase/app";
-import { getAnalytics } from "firebase/analytics";
+import { getAuth } from "firebase/auth";
 import EditTask from './editTask';
 // TODO: Add SDKs for Firebase products that you want to use
 // https://firebase.google.com/docs/web/setup#available-libraries
@@ -25,7 +28,8 @@ function App() {
             <Route exact path="/CreateNew" element={<CreateNew/>} />
             <Route exact path="/Home" element={<Home/>} />
             <Route exact path="/EditTask" element={<EditTask/>} />
-
+            <Route exact path="/Signup" element={<Signup/>}/>
+            <Route exact path="/Login" element={<Login/>}/>
           </Routes>
         </Router>
     </div>
@@ -46,6 +50,5 @@ const firebaseConfig = {
 
 // Initialize Firebase
 const app = initializeApp(firebaseConfig);
-const analytics = getAnalytics(app);
-
+export const auth = getAuth(app);
 export default App;

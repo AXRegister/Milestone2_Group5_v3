@@ -8,15 +8,15 @@ function Detail() {
         <div class="innerHeader">
             <h1><img class="logo" src={logo} alt="rocketshiplogo"/>  Florida Tech Space Network / View Task Detail</h1>
             <div class="usernav">
-              <a class="usernav" href="list.html">Log-In</a>
-              <a class="usernav" href="list.html">Sign Up</a>
+              <a class="usernav" href="Login.js">Log-In</a>
+              <a class="usernav" href="Signup.js">Sign Up</a>
           </div>
         </div>
     </header>
         <main>
             <Nav></Nav>
             <div class="container">
-                <form action="detail.html">
+                <form action="detail.js">
                 
                 <div class="row">
                     <div class="col-25">
