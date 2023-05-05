@@ -3,11 +3,13 @@ import Nav from './Nav'
 import logo from './rocketship.jpg'
 import GetTasks from "./getTasks";
 import Task from "./Task.js"
-
+import EditTask from './editTask';
+import {Routes, Route, useNavigate} from 'react-router-dom';
 
 function List() {
 
     var Tasks = [];
+    
 
     const finalData = GetTasks();
 
@@ -43,11 +45,10 @@ function List() {
   }
 
   function essentialTasks(Tasks) {
-
     var str = "";
     var finalString = "";
     var preText = '<li><p style="color: #F1E0C5"><a class="tasklist" href="list.html"></a>'
-    var postText = '</a><button onclick="window.location.href=\'detail.html\';">Update</button></p></li>'
+    var postText = '</a><button onclick="window.location.href=\'EditTask\';">Update</button></p></li>'
 
     for(var i=0; i< Tasks.length; i++) {
 
@@ -70,7 +71,7 @@ function List() {
     var str = "";
     var finalString = "";
     var preText = '<li><p style="color: #F1E0C5"><a class="tasklist" href="list.html"></a>'
-    var postText = '</a><button onclick="window.location.href=\'detail.html\';">Update</button></p></li>'
+    var postText = '</a><button onclick="window.location.href=\'EditTask\';">Update</button></p></li>'
 
     for(var i=0; i< Tasks.length; i++) {
 
@@ -93,7 +94,7 @@ function List() {
     var str = "";
     var finalString = "";
     var preText = '<li><p style="color: #F1E0C5"><a class="tasklist" href="list.html"></a>'
-    var postText = '</a><button onclick="window.location.href=\'detail.html\';">Update</button></p></li>'
+    var postText = '</a><button onclick="window.location.href=\'EditTask\';">Update</button></p></li>'
 
     for(var i=0; i< Tasks.length; i++) {
 
